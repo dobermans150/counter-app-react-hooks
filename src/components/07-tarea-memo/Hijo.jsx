@@ -6,7 +6,7 @@ export const Hijo = React.memo( ( { numero, incrementar } ) => {
 
     return (
         <button
-            className="btn btn-primary md-3"
+            className="btn btn-primary mx-1"
             onClick={ () => incrementar( numero ) }
         >
             { numero }

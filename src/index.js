@@ -13,11 +13,12 @@ import FormWithCustomHook from './components/02-useEffect/FormWithCustomHook'; *
 /* import { Memorize } from './components/06-Memos/Memorize'; */
 /* import { MemoHook } from './components/06-Memos/MemoHook';
 import { CallBackHokk } from './components/06-Memos/CallBackHokk'; */
-import { Padre } from './components/07-tarea-memo/Padre';
+/* import { Padre } from './components/07-tarea-memo/Padre'; */
+import { TodoApp } from './components/08-useReducer/TodoApp.jsx';
 
-ReactDOM.render(<Padre />, document.getElementById('root'));
+ReactDOM.render(<TodoApp />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/* reportWebVitals(); */
