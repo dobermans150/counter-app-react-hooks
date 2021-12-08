@@ -1,6 +1,6 @@
 export const todoReducer = ( state = [], action ) => {
 
-    switch ( action?.type.trim() ) {
+    switch ( action?.type?.trim() ) {
         case 'add':
             return [ ...state, action?.payload ];
 
